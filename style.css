@@ -1,0 +1,144 @@
+body{
+	background-color: light grey; 
+	font-family: Arial Black, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+}
+h1{
+	color: red;
+}
+.box{
+	width: 80%;
+	margin: auto;
+}
+.body{
+   background-color: purple;	
+   border: 5px black solid;
+   padding: 20px;
+   margin: 20px 0;
+}
+
+.body h1{
+	font-family: Tahoma;
+	font-weight: 800;
+	font-style: italic;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+a{
+	text-decoration: none;
+	color: #000;
+}
+
+a:hover{
+	color: red;
+}
+
+a:active{
+	color: green;
+}
+
+.classes{
+	border: 1px #ccc solid;
+	padding: 10px;
+	border-radius: 15px;
+}
+
+.classes h2{
+   text-align: center;
+}
+.classes ul{
+	padding: 0;
+	list-style: square;
+	list-style: none;
+}
+
+.classes li{
+	padding-bottom: 8px;
+	border-bottom: dotted 1px #333;
+}
+.my-form{
+	padding: 20px;
+}
+.form{
+	padding-bottom: 15px;
+}
+.my-form label{
+	display: block;
+}
+.my-form input{
+	padding: 8px;
+	width: 100%;
+}
+.form-name{
+	text-align: center;
+}
+
+.block{
+	float: left;
+	width: 33.3%;
+	border: 1px solid #ccc;
+	padding: 10px;
+	box-sizing: border-box; 
+}
+
+.button{
+	background-color: #333;
+	color: #fff;
+	padding: 10px 15px;
+	border: none;
+}
+
+.button:hover{
+	background: red;
+	color: #fff;
+}
+#main-block{
+	float: left;
+	width: 70%;
+}
+#sidebar{
+	float: right;
+	width: 30%;
+	background-color: #333;
+	color: #fff;
+	padding: 15px;
+	box-sizing: border-box;
+}
+
+.p-box{
+	width: 800px;
+	height: 500px;
+	border: 1px solid #000;
+	margin-top: 30px;
+	position: relative;
+	background: url(images/pic.jpg)  no-repeat;
+	background-size: cover;
+	background-position: center top;
+}
+.p-box h1{
+	position: absolute;
+	top: 100px;
+	left: 200px;
+
+}
+.p-box h2{
+	position: absolute;
+	bottom: 40px;
+	right: 100px;
+}
+.fix-me{
+	position: fixed;
+	top: 400px;
+}
+
+.list li:first-child{
+	background: red;
+}
+.list li:last-child{
+	background: blue;
+}
+.list li:nth-child(5){
+    background: yellow;
+}
